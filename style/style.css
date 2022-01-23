@@ -1,0 +1,75 @@
+html,body{
+    background-color: #2f5880;
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #ffff;
+    padding: 25px;
+    width:500px;
+    border-radius: 10px;
+}
+
+.watch{
+    font-size: 3rem;
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.watch:hover{
+    font-size: 3.5rem;
+}
+
+.btn{
+    width:50px;
+    height: 50px;
+    background:none;
+    border:none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: none;
+    margin: 0px 0px 0px 10px;
+    transition: 500ms;
+    box-shadow:0px 0px 5px 1px white;
+}
+
+.btn:hover{
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: #0c7765;
+    box-shadow:0px 0px 10px 1px black;
+}
+
+.iniciar{
+    background-image: url(../img-icon/play-button.png);
+}
+
+.pausar{
+    background-image: url(../img-icon/stop.png);
+}
+
+.zerar{
+    background-image: url(../img-icon/cancel.png);
+}
+
+.pouse{
+    color:red;
+}
+
+@media only screen and (max-width:600px){
+    .container{
+        width:80%;
+    }
+}
